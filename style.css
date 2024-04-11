@@ -1,0 +1,217 @@
+body {
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Abel", sant-serif;
+    font-size: 1.3rem;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    background-image: url(./img/4.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgb(193, 23, 202);
+}
+
+.marca {
+    background-color: white;
+}
+
+.card-service{
+    border-radius: 150px 150px 20px 20px;
+}
+
+.pagina-web{
+    width: 60vh;
+}
+
+.img-web{
+    width: 60vh;
+}
+
+.precio{
+    font-size: 0.7rem;
+}
+
+.valor{
+    font-size: 0.8rem;
+}
+
+.card-title{
+    width: 89%;
+    border: solid 15px transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(120deg, #db8ef3, #13d9f3);
+    background-origin: border-box;
+    font-size: 1rem;
+}
+
+.card-text-empresa {
+    font-size: .8rem;
+    text-align: justify;
+}
+
+.card-text-somos {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-text-equipo {
+    font-size: .8rem;
+    text-align: center;
+}
+
+.card-title-servicio {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-text-servicio {
+    font-size: .8rem;
+    
+}
+
+.card-plan{
+    width: 70%;
+}
+
+.img-equipo {
+    width: 60%;
+    border: solid 15px transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(120deg, #3c7cf4, #ba4fda);
+    background-origin: border-box;
+}
+
+.comprar {
+    text-decoration: none;
+}
+
+.form-control {
+    font-size: .8rem;
+}
+
+
+.cont-contacto {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-around;
+    background-color: rgba(189, 187, 190, 0.262);
+}
+
+.cont-contacto .form {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto 20px auto;
+    padding: 0px 10px;
+}
+
+.cont-contacto .form input {
+    height: 30px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+}
+
+.cont-contacto .form textarea {
+    height: 100px;
+    width: 100%;
+    border: solid;
+    border-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+}
+
+.cont-contacto .form .btn {
+    font-family: "Abel", sans-serif;
+    border-radius: 2px;
+    width: 80px;
+    color: white;
+    background-color: #ba4fda;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+label {
+    color: black;
+}
+
+.logoA {
+    max-width: 40%;
+    text-align: center;
+}
+
+.parrafoLogo {
+    font-size: 1.5rem;
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+}
+
+.parrafoLogo1 {
+    font-size: 1rem;
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+/*Media Querys*/
+@media screen and (max-width: 767px){
+    .nuestro-equipo1{
+        width: 80%;
+        margin: auto;
+    }
+
+    .nuestra-empresa1{
+        width: 50%;
+        margin: auto;
+    }
+
+    .nuestro-servicio1{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .tarjeta{
+        width: 80%;
+    }
+
+    .nuestra-empresa1{
+        width: 80%;
+        margin: auto;
+    }
+
+    .empresa{
+        width: 80%;
+    }
+
+    .pagina-web{
+        width: 80%;
+    }
+
+    .nuestro-servicio1{
+        width: 80%;
+        margin: auto;
+    }
+
+}
