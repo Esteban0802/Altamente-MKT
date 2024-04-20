@@ -35,10 +35,11 @@ main {
 
 .pagina-web{
     width: 60vh;
+    border-radius: 190px 190px 20px 20px;
 }
 
 .img-web{
-    width: 60vh;
+    width: 25vh;
 }
 
 .precio{
